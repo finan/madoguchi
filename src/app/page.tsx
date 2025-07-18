@@ -7,7 +7,7 @@ export default function Home() {
         <HeroSlider />
       </section>
 
-      <section className="mt-12">
+      <section className="">
         <h2 className="mb-4 text-2xl font-bold">Welcome to Madoguchi</h2>
         <p className="text-gray-600">Ini adalah halaman utama aplikasi kamu.</p>
         <button className="btn btn-primary">Ini tombol CTA</button>

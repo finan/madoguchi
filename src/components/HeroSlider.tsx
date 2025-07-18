@@ -8,10 +8,15 @@ import Link from 'next/link';
 export default function HeroSlider() {
   const [sliderRef] = useKeenSlider<HTMLDivElement>({
     loop: true,
+    created(slider) {
+      setInterval(() => {
+        slider.next();
+      }, 5000);
+    },
   });
 
   return (
-    <div ref={sliderRef} className="keen-slider h-[60vh] md:h-[80vh]">
+    <div ref={sliderRef} className="keen-slider aspect-video w-full">
       {/* Slide 1 */}
       <div className="keen-slider__slide relative">
         <Link href="/" className="block h-full w-full">
