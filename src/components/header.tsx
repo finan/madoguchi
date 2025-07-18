@@ -55,7 +55,7 @@ export function Header() {
             </li>
           </ul>
         </div>
-        <Link href="/" className="btn btn-ghost text-xl">
+        <Link href="/" className="text-xl font-bold">
           Madoguchi
         </Link>
       </div>
@@ -83,8 +83,8 @@ export function Header() {
         </ul>
       </div>
       <div className="navbar-end">
-        <Link href="/" className="btn">
-          Button
+        <Link href="/" className="btn btn-secondary">
+          Ini tombol CTA
         </Link>
       </div>
     </header>

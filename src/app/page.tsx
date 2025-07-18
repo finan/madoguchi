@@ -1,7 +1,17 @@
+import HeroSlider from '@/components/HeroSlider';
+
 export default function Home() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <section aria-label="Promotional banners" className="mt-12">
+        <HeroSlider />
+      </section>
+
+      <section className="mt-12">
+        <h2 className="mb-4 text-2xl font-bold">Welcome to Madoguchi</h2>
+        <p className="text-gray-600">Ini adalah halaman utama aplikasi kamu.</p>
+        <button className="btn rounded-[--rounded-btn]">Ini tombol CTA</button>
+      </section>
     </>
   );
 }

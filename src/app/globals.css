@@ -1,7 +1,20 @@
 @import 'tailwindcss';
-@plugin "daisyui";
+@plugin "daisyui" {
+  themes: all;
+}
 
 /* Font Inter via variable */
 html {
   font-family: var(--font-inter), sans-serif;
+}
+
+/* styles.css (kalau kamu tetap pakai) */
+.number-slide1 {
+  background: #f87171;
+}
+.number-slide2 {
+  background: #60a5fa;
+}
+.number-slide3 {
+  background: #34d399;
 }
