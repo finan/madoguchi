@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html data-theme="luxury" lang="en" className={inter.variable}>
+    <html lang="en" className={inter.variable} data-theme="bumblebee">
       <body className="flex min-h-screen flex-col">
         <Header />
         <main className="flex-1">
