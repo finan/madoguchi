@@ -16,7 +16,7 @@ export default function HeroSlider() {
   });
 
   return (
-    <div ref={sliderRef} className="keen-slider aspect-video w-full">
+    <div ref={sliderRef} className="keen-slider aspect-video w-full rounded-md">
       {/* Slide 1 */}
       <div className="keen-slider__slide relative">
         <Link href="/" className="block h-full w-full">
